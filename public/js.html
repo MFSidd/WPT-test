@@ -1,0 +1,400 @@
+<style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .topnav a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+    
+    
+    
+    .item-container2 {
+      padding-top: 20px;
+       background-color: #D9EEE1!important;
+       color: black;
+       height: 420px;
+       text-align: center;
+     }
+    
+     .item-container3 {
+      padding-top: 20px;
+       background-color: #FFF4A3!important;
+       color: black;
+       height: 420px;
+       text-align: center;
+     }
+    
+     .item-container4 {
+      padding-top: 20px;
+       background-color: #282A35!important;
+       color: black;
+       height: 420px;
+       text-align: center;
+     }
+    
+    #block6 {
+      
+    
+     
+      font-size: smaller;
+      display: inline-block;
+      
+      background-color: white;
+      color: black;
+      border-radius: 10px;
+    
+    }
+    
+    .bu1 {
+      background-color: #04AA6D;
+      border: none;
+      color: white;
+      margin-top: 20px;
+      margin-left: 30px;
+      text-align: center;
+      font-size: 14px;
+      
+      
+      
+      height: 40px;
+      width: 120px;
+      border-radius: 30px;
+    }
+    
+    .bu1:hover {background-color: #0a774f; color: black;;}
+    
+    .bu2 {
+      background-color: #FFF4A3!important;
+      border: none;
+      color: black;
+      margin-top: 20px;
+      margin-left: 30px;
+      text-align: center;
+      font-size: 14px;
+      
+      
+      
+      height: 40px;
+      width: 120px;
+      border-radius: 30px;
+    }
+    
+    .bu2:hover {background-color: #d1c568; color: white;;}
+    .bu3 {
+      background-color: #282A35;
+      border: none;
+      color: white;
+      margin-top: 20px;
+      margin-left: 30px;
+      text-align: center;
+      font-size: 14px;
+      
+      
+      
+      height: 40px;
+      width: 120px;
+      border-radius: 30px;
+    }
+    
+    .bu3:hover {background-color: #191c29; color: black;;}
+    .bu4 {
+      background-color: #FFC0C7;
+      border: none;
+      color: black;
+      margin-top: 20px;
+      margin-left: 30px;
+      text-align: center;
+      font-size: 14px;
+      
+      
+      
+      height: 40px;
+      width: 120px;
+      border-radius: 30px;
+    }
+    
+    .bu4:hover {background-color: #e497a0; color: white;;}
+    
+    .ex1 {
+  overflow: scroll;
+   width: 180px;
+   height: 1000px;
+  background-color: rgb(225, 225, 225);
+}
+
+.ex1 a {
+  color: #000000;
+  text-align: center;
+  padding: 8px 10px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.ex1 a:hover {
+  background-color: #c0c2c1;;
+  color: rgb(255, 255, 255);
+}
+
+.ex1 a.active {
+  background-color: #04AA6D;
+  color: rgb(0, 0, 0);
+}
+    
+    
+    </style>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    
+    
+    
+    
+    <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container-fluid">
+      <a class="navbar-brand py-3" href="#">
+          <img src="images/logo.jpg" alt="" width="50" height="50" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ">
+            <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Tutorials
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+              <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               Reference
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+              <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Exercises
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <a class="nav-link text-dark" href="#">Videos</a>
+            
+          </ul>
+          <ul class="ms-auto mt-3 ">
+            <button type="button" class="btn btn-success rounded-pill">Get Certified</button>
+          </ul>
+           <ul class=" mt-3 ">
+            <button type="button" class="btn btn-white ">Website</button>
+          </ul> <ul class=" mt-3 ">
+            <button type="button" class="btn btn-success rounded-pill">Login</button>
+          </ul>
+           </div>
+      </div>
+    </nav>
+    
+    
+    </head>
+    <body>
+    <div class="container-fuild">
+    <div class="topnav">
+      <a  href="main.html">HOME</a>
+      <a  href="html.html">HTML</a>
+      <a href="css.html">CSS</a>
+      <a class="active" href="js.html">JAVASCRIPT</a>
+      <a href="#about">SQL</a>
+       <a href="#">PYTHON</a>
+       <a href="#">PHP</a>
+       <a href="#">BOOTSTRAP</a>
+       <a href="#">HOW TO</a>
+       <a href="#">W3.CSS</a>
+       <a href="#">JAVA</a>
+       <a href="#">JQUERY</a>
+       <a href="#">C</a>
+       <a href="#">C++</a>
+       <a href="#">C#</a>
+       <a href="#">R</a>
+       <a href="#">REACT</a>
+        
+    </div>
+    </div>
+    </body>
+
+    <div class="row">
+       <div class="col-2">
+        <div class="ex1 ">
+            <h5>JS Tutorial</h5>
+            <a href="#">JS Home</a></br>
+            <a href="#">JS Introduction</a></br>
+            <a href="#">JS Editior</a></br>
+            <a href="#">JS Basic</a></br>
+            <a href="#">JS Element</a></br>
+            <a href="#">JS Atributes</a></br>
+            <a href="#">JS Heading</a></br>
+            <a href="#">JS Paragraph</a></br>
+            <a href="#">JS Style</a></br>
+            <a href="#">JS Formating </a></br>
+            <a href="#">JS Qutation</a></br>
+            <a href="#">JS Comments</a></br>
+            <a href="#">JS Color</a></br>
+            <a href="#">JS CSS</a></br>
+            <a href="#">JS Links</a></br>
+            <a href="#">JS Images</a></br>
+            <a href="#">JS Favicon</a></br>
+            <a href="#">JS Tables</a></br>
+            <a href="#">JS List</a></br>
+            <a href="#">JS Block-Inline</a></br>
+            <a href="#">JS Comments</a></br>
+            <a href="#">JS Color</a></br>
+            <a href="#">JS CSS</a></br>
+            <a href="#">JS Links</a></br>
+            <a href="#">JS Images</a></br>
+            <a href="#">JS Favicon</a></br>
+            <a href="#">JS Tables</a></br>
+            <a href="#">JS List</a></br>
+            <a href="#">JS Block-Inline</a></br>
+            <a href="#">JS Comments</a></br>
+            <a href="#">JS Color</a></br>
+            <a href="#">JS CSS</a></br>
+            <a href="#">JS Links</a></br>
+            <a href="#">JS Images</a></br>
+            <a href="#">JS Favicon</a></br>
+            <a href="#">JS Tables</a></br>
+            <a href="#">JS List</a></br>
+            <a href="#">JS Block-Inline</a></br>
+            <a href="#">JS Comments</a></br>
+            <a href="#">JS Color</a></br>
+            <a href="#">JS CSS</a></br>
+            <a href="#">JS Links</a></br>
+            <a href="#">JS Images</a></br>
+            <a href="#">JS Favicon</a></br>
+            <a href="#">JS Tables</a></br>
+            <a href="#">JS List</a></br>
+            <a href="#">JS Block-Inline</a></br>
+            <a href="#">JS Comments</a></br>
+            <a href="#">JS Color</a></br>
+            <a href="#">JS CSS</a></br>
+            <a href="#">JS Links</a></br>
+            <a href="#">JS Images</a></br>
+            <a href="#">JS Favicon</a></br>
+            <a href="#">JS Tables</a></br>
+            <a href="#">JS List</a></br>
+            <a href="#">JS Block-Inline</a></br>
+            <a href="#">JS Comments</a></br>
+            <a href="#">JS Color</a></br>
+            <a href="#">JS CSS</a></br>
+            <a href="#">JS Links</a></br>
+            <a href="#">JS Images</a></br>
+            <a href="#">JS Favicon</a></br>
+            <a href="#">JS Tables</a></br>
+            <a href="#">JS List</a></br>
+            <a href="#">JS Block-Inline</a></br>
+            <a href="#">JS Comments</a></br>
+            <a href="#">JS Color</a></br>
+            <a href="#">JS CSS</a></br>
+            <a href="#">JS Links</a></br>
+            <a href="#">JS Images</a></br>
+            <a href="#">JS Favicon</a></br>
+            <a href="#">JS Tables</a></br>
+            <a href="#">JS List</a></br>
+            <a href="#">JS Block-Inline</a></br>
+            <a href="#">JS Comments</a></br>
+            <a href="#">JS Color</a></br>
+            <a href="#">JS Color</a></br>
+            <a href="#">JS CSS</a></br>
+            <a href="#">JS Links</a></br>
+            <a href="#">JS Images</a></br>
+            <a href="#">JS Favicon</a></br>
+            <a href="#">JS Tables</a></br>
+            <a href="#">JS List</a></br>
+            <a href="#">JS Block-Inline</a></br>
+            <a href="#">JS Comments</a></br>
+            <a href="#">JS Color</a></br>
+
+            
+            
+            </div>
+       </div>
+        <div class="col-8">
+
+            <div class="container" >
+                <h1 class="py-5">JavaScript Tutorial</h1>
+                </div>
+                <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <ul>
+                        <button type="button" class="btn btn-success">&lt; Home</button>
+                
+                    </ul>
+                    <ul>
+                        <button type="button" class="btn btn-success ms-auto">Next &gt;</button>
+                    </ul>
+                </div>
+                </nav>
+                <div>
+                    <div class="alert alert-primary m-3 text-dark" role="alert">
+                    <p>JavaScript is the world's most popular programming language.</p>
+                    <p>JavaScript is the programming language of the Web.</p>
+                    <p>JavaScript is easy to learn.</p>
+                    <p>This tutorial will teach you JavaScript from basic to advanced.</p>
+                    <button type="button" class="btn btn-success">Start learning JavaScript now &gt;&gt;</button></br></br>
+                 
+                   
+                
+                </div>
+                </div>
+                
+
+        </div>
+                
+        </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"></script>
+ 
+      
+
+
+    
+
+
+
+
+
+
+
+
